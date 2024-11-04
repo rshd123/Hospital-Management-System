@@ -43,7 +43,7 @@ public class Reception extends JFrame {
         btn1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e){
-                new updatePatientDet();
+                new New_patient();
             }
         });
         
@@ -144,7 +144,7 @@ public class Reception extends JFrame {
 
 
         JLabel label2 = new JLabel("HOSPITAL MANAGEMENT SYSTEM");
-        label2.setLocation(500,500);
+        label2.setLocation(1000,1000);
         panel.add(label2);
 
 
